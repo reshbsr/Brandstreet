@@ -1,0 +1,205 @@
+
+/*МАСШТАБИРОВАНИЕ - Максимальное уменьшение на обычных мониторах*/
+
+@media screen and (min-width: 3000px){
+	.map_left{
+	background-size: 100% 100%;
+	}
+
+	.map_right{
+	background-size: 100% 100%;
+	}
+
+	.header{
+		left: 500px;
+	}
+
+}
+
+/*МАСШТАБИРОВАНИЕ - максимальное увеличение на обычных мониторах*/
+/*МОБИЛЬНЫЕ УСТРОЙСТВА*/
+@media screen and (max-width: 1023px){
+	.header_background{
+	width: 1260px;
+	}	
+	.map_right{
+		display: none;
+	}
+	.map_left{
+		display: none;
+	}
+	.services_head{
+		width: 1260px;
+	}
+	.services_body{
+		width: 1260px;
+	}
+
+	.map_center{
+		width: 1260px;
+	}
+
+	.packaging{
+		left: 645px;
+	}
+
+	.marketing{
+		left: 453px;
+	}
+
+	.branding{
+		left: 64px;
+	}
+
+	.advertising{
+		right: 34px;
+	}
+	.portfolio_head{
+		width: 1260px;
+	}
+	.portfolio_body{
+		width: 1260px;
+		padding-left: 0px;
+	}
+	.portfolio{
+		width: 940px;
+		height: 290px;
+		margin: auto;
+		box-sizing: border-box;
+		/*border: 2px solid red;	*/
+	}
+
+	.footer .bs{
+		margin-left: 32px;
+		margin-right: 12px;
+	}
+
+	.footer .instagram{
+	margin-left: 14px;
+	}
+
+	.footer .facebook{
+	margin-right: 32px;
+	}
+}
+
+/*МАСШТАБИРОВАНИЕ - небольшое увеличение на обычных мониторах */
+/*РАЗРЕШЕНИЕ - разрешение 1024px на обычных мониторах*/
+	@media screen and (min-width: 1024px) and (max-width: 1259px){
+	.header{
+		width: 100%;
+		}
+	.nav{
+		margin-left: 50px;
+		width: 450px;
+	}
+
+	.services_head{
+	width: 1005px;
+	}
+	.portfolio_head{
+	width: 1005px;
+	}
+	.portfolio_body{
+	width: 1005px;
+	}
+
+	.footer{
+		width: 1005px;
+	}
+	.footer .copyright{
+		padding-left: 0px;
+		width: 480px;
+	}
+
+	.footer .contacts{
+	width: 295px;
+	}
+
+	.footer .bs{
+		margin-right: 33px;
+	}
+	.footer .instagram{
+		margin-left: 15px;
+	}
+	.footer .facebook{
+		margin-left: 15px;
+	}
+}
+
+
+/*МОБИЛЬНЫЕ УСТРОЙСТВА*/
+/*@media screen and (min-device-width: 320px) and (max-device-width: 1023px){
+	.nav{
+		margin-left: 50px;
+		width: 450px;
+	}
+
+	.services_head{
+		width: 100%;
+	}
+	.services_body{
+		width: 100%;
+	}
+	
+	.header_background{
+		width: 100%;
+	}	
+	.header{
+		width: 100%;
+	}
+	.nav{
+		margin-left: 20px;
+		width: 450px;
+	}
+	
+	.map_center{
+		width: 1024px;
+	}
+
+	.packaging{
+		left: 532px;
+	}
+
+	.marketing{
+		left: 369px;
+	}
+
+	.branding{
+		left: 52px;
+	}
+
+	.advertising{
+		right: 20px;
+	}
+	.portfolio_head{
+		width: 100%;
+	}
+	.portfolio_body{
+		width: 100%;
+		padding-left: 10px;	
+	}
+	.footer{
+		width: 100%;
+	}
+
+	.footer .copyright{
+		padding-left: 0px;
+		width: 480px;
+	}
+
+	.footer .contacts{
+	width: 295px;
+	}
+
+	.footer .bs{
+		margin-right: 10px;
+	}
+	.footer .instagram{
+		margin-left: 5px;
+	}
+	.footer .facebook{
+		margin-left: 5px;
+	}
+
+}*/

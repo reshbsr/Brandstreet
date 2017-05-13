@@ -1,0 +1,24 @@
+@media screen and (min-resolution: 144dpi) and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
+
+.footer .bs{
+	background: url(../img/icons@2x.png) -3px -1px no-repeat;
+	background-size: 209px 36px;
+}
+
+.footer .location{
+	background: url(../img/icons@2x.png) -82px -1px no-repeat;
+	background-size: 209px 36px;
+}
+
+.footer .instagram{
+	background: url(../img/icons@2x.png) -132px -1px no-repeat;
+	background-size: 209px 36px;
+}
+
+.footer .facebook{
+	background: url(../img/icons.png) -182px -3px no-repeat;
+	background-size: 209px 36px;
+}
+
+
+}
